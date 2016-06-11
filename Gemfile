@@ -1,7 +1,14 @@
 source 'https://rubygems.org'
 
-
+#Bundle for image handling
 gem "paperclip", "~> 5.0.0.beta1"
+
+
+# Bundle for easier forms t.input
+gem 'simple_form'
+
+gem 'bootstrap-sass', '~> 3.3.6'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

@@ -1,1 +1,5 @@
-<h1> Crongram - Cronje Family Photos </h1>
+
+<% @posts.each do |post| %>
+   <%= image_tag post.image.url(:medium) %> <br>
+   <%= post.caption %>
+ <% end %>
